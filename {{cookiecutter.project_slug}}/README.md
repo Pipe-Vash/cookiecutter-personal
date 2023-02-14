@@ -57,5 +57,5 @@ source env/bin/activate
 finally install the libraries:
 
 ``` 
-pip install libraries
+pip install library_name
 ```
