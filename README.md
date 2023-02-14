@@ -2,7 +2,7 @@
 
 This is a Cookiecutter template for creating a data analysis project 
 ## Project Features
-- Python 3.8+
+- Python 3.9
 - Git integration
 - Python preset functions
 
@@ -30,33 +30,20 @@ conda install -c conda-forge cookiecutter
 
 ├── README.md
 ├── cookiecutter.json
-├── environment.yaml
+├── environment.yml
+├── .gitignore
 ├── hooks
+│   ├── pre_gen_project.py
 │   └── post_gen_project.py
 └── {{ cookiecutter.project_slug }}
     ├── LICENCE
     ├── README.md
+    ├── environment.yml
+    ├── .gitignore
     ├── data
-    │   ├── 0_external
-    │   ├── 0_raw
-    │   ├── 1_intermediate
-    │   └── 2_processed
-    ├── docs
-    ├── environment.yaml
+    │   ├── .gitkeep
     ├── notebooks
-    │   └── 0.0-{{ cookiecutter.project_slug }}-introduction.ipynb
-    ├── reports
-    ├── requirements.txt
-    ├── scripts
-    ├── setup.py
-    └── {{ cookiecutter.project_slug }}_packages
-        ├── __init__.py
-        ├── utils
-        │   ├── __init__.py
-        │   └── get_path.py
-        └── visualization
-            ├── __init__.py
-            └── visualization.py
+    │   └── .gitkeep
 ```
 
 ## Usage
