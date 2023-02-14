@@ -50,7 +50,7 @@ conda install -c conda-forge cookiecutter
 In the directory that you create for the project, execute in terminal:
 
 ```
-cookiecutter https://github.com/balechon/cookiecutter-Data_Analisys
+cookiecutter https://github.com/Pipe-Vash/cookiecutter-personal
 ```
 ## Credits
 This project was made it in base of:
