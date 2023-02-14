@@ -32,7 +32,7 @@ This project has not a license file
 ```
 
 ## How to activate the enviroment
-you could review the libraries and dependencies to use in *eviroment.ylm* file
+you could review the libraries and dependencies to use in *eviroment.yml* file
 
 - Create a new enviroment with conda:
 

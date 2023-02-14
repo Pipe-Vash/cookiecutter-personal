@@ -9,7 +9,6 @@ dependencies:
   - fs
   - jupyter
   - jupyterlab
-  - anaconda
   - pathlib
   - numpy
   {% endif -%}
